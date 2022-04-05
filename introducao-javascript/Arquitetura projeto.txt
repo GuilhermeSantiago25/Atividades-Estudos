@@ -3,3 +3,7 @@
 2 -> salvar em uma váriavel;
 3 -> fazer os cálculos do imc;
 4 -> retornar o valor do imc;
+
+//Subir para o git.
+
+//Melhorar IMC-
