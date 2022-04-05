@@ -1,0 +1,22 @@
+<meta charset="UTF-8">
+<script>
+    function pulaLinha() {
+
+        document.write("<br><br>");
+        
+    }
+
+    function mostra(frase) {
+        
+        document.write (frase);
+        
+        pulaLinha();
+    
+    }
+    var idade1 = 1500;
+    var idade2 = 2022;
+    var geracoes = Math.round((idade2 - idade1)/28);
+
+    mostra("A quantidade de gerções desde 1500 até os dias de hoje são : " + geracoes + " gerações!");
+
+</script>

@@ -1,0 +1,60 @@
+CREATE DATABASE (cria um database)
+
+DROP DATABASE (deleta um database)
+
+USE (seleciona um banco de dados 'equivalente ao duplo click')
+
+SELECT * FROM (seleciona da tabela)
+
+-----------------------------------------------------------------------------------------
+FLOAT(7,4) - 7 casas antes da virgula, 4 casas depois da virgula (arredondando o oultimo digito)
+
+
+*DECIMAL ou NUMERICAL
+
+tamanho: até 65 digitos;
+
+DECIMAL(5,2) -> -999,99 até 999,99 (sem arredondar)
+
+ATRIBUTOS
+
+SIGNED ou UNSIGNED - vão possuir ou não sinal no número;
+
+ZEROFILL - preenche com 0  os espaços;
+
+AUTO_INCREMENT - sequencia auto incrementada.
+
+Erros de OUT OF RANGE - fora do campo
+
+
+
+Data e Hora
+
+
+DATE - 1000-01-01 ATÉ 9999-12-31
+
+
+DATETIME - 1000-01-01 00:00:00 até 1000-12-31 23:59:59
+
+
+TIMESTAMP - 1970-01-01 00:00:01 UTC até 2038-01-19 UTC (com fuso-horario)
+
+TIME - -838:59:59 e 839:59:59
+
+YEAR - 1901 - 2155 (pode ser no formato de 2 ou 4)
+
+
+
+
+
+STRINGS:
+
+CHAR - cadeia de caracteres com valor fixo (0 a 255)(armazena os espaços vazios)
+
+VARCHAR - cadeia de caracteres com valor variado (de 0 a 255)
+
+
+SET e COLLATE - Que tipo de conjunto de caracteres serão suportados;
+
+
+

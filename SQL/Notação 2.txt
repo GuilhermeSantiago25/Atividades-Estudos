@@ -1,0 +1,41 @@
+NOT (X = A OR Y = B) => INVERTE A VERIFICAÇÃO 
+           AND       =>
+
+		
+(NOT ((3 > 2) OR (4 >= 5)) AND (5 > 4) ) OR (9 > 0)
+
+(NOT (V) OR (F)) AND (V) ) OR (V)
+(NOT (V)) AND (V)) OR (V);
+((F) AND (V)) OR (V);
+(F) OR (V)
+(V)
+
+SELECT DISTINCT * FROM TABLEA
+
+LIMIT - Limita o número de linhas exibidas. Sempre fica ao final da expressão;
+N,M - apartir do N pega os M elementos;(INCLUINDO O SELECIONADO 'N')
+
+Funciona como uma array -> começa do 0
+
+SELECT * FROM TAB ORDER BY CAMPO
+
+apresenta o resultado da consulta ordenado pelo campo determinado no ORDER BY
+
+ASC (ordem natural)
+DESC, 
+
+ORDER BY CAMPO1,CAMPO2
+
+SELECT <CAMPOS> FROM TAB GROUP BY CAMPO
+SELECT SUM(Y) FROM TAB -> FAZ COM TODOS OS CAMPOS;
+
+SUM: Soma;
+MAX: Máximo;
+MIN: Mínimo;
+AVG: Média;
+COUNT: Conta Ocorrências;
+
+
+HAVING - É UM FILTRO QUE SE APLICA AO RESULTADO DE UMA AGREGAÇÃO;
+
+CASE - CLASSIFICAÇÃO DE REGISTROS;
