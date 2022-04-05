@@ -6,4 +6,6 @@
 
 //Subir para o git.
 
-//Melhorar IMC-
+//Melhorar IMC
+ -Adicionar Funcao de calc;
+ -Adicionar laço de repetição;

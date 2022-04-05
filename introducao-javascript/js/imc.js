@@ -22,8 +22,11 @@ for (let i = 0; i < pacientes.length; i++) {
         alturaValida = false;
     } 
     if (peso && altura){
-        let imc = peso / (altura * altura);
-        tdimc.textContent = imc.toFixed(2);
-        
+       tdimc.textContent = calcImc(peso,altura);        
     } 
+}
+
+function calcImc (peso, altura) {
+    let imc = peso / (altura * altura);
+    return imc.toFixed(2);;
 }
