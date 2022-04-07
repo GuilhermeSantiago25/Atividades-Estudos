@@ -15,14 +15,17 @@ for (let i = 0; i < pacientes.length; i++) {
         console.log('Peso inválido')
         tdimc.textContent = 'Peso Inválido!';
         pesoValido = false;
+        paciente.classList.add('paciente-invalido');
     } 
     if (altura <=0 || altura >= 1000){
         console.log('Altura inválida')
         tdimc.textContent = 'Altura Inválida!';
         alturaValida = false;
+        paciente.classList.add('paciente-invalido');
     } 
-    if (peso && altura){
+    if (pesoValido && alturaValida){
        tdimc.textContent = calcImc(peso,altura);        
+       paciente.classList.remove('paciente-invalido');
     } 
 }
 
